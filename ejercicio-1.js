@@ -8,3 +8,5 @@ const obtenerPosts = async () => {
         console.error("Error al obtener posts:", error);
     }
 };
+
+obtenerPosts();
